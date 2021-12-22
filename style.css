@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #07034d 74%);
+    margin: 0;
+    font-family: 'Ubuntu';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+input {
+    background-color: #5e23bd;
+    color: #eee;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-size: 1rem;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+input:focus {
+    outline: none;
+}
+
+.card {
+    background-color: #301161;
+    background-image: linear-gradient(315deg, #301161 0%, #5e23bd 74%);
+    display: flex;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+}
+
+.avater {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid #2a2a72;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.user-info {
+    color: #eee;
+    margin-left: 1rem;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 300px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
+
+.info .icon {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    background-color: #07034d;
+    border-radius: 50%;  
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: .5rem;
+}
+
+.repo {
+    background-color: #07034d;
+    color: #eee;
+    font-size: 0.7rem;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.25rem 0.3rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+h4 {
+    font-family: monospace;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    color:rgba(0, 255, 0, 0.823);
+}
